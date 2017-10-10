@@ -1,0 +1,83 @@
+\section{Introduction}
+\label{sec:introduction}
+% Retrieval is common
+% Documents are becoming more and more complex with a lot of things in it beyond 
+%textual content
+% Why are embeddings popular % How are the built % How are they used in 
+%information retrieval % What are the shortcomings of existing embeddings
+% Importance of structure and our solution
+% Research questions and findings
+With exponential growth in digital content , an increasing number of users rely 
+on search engines to find information on a daily basis. In order to assist users 
+in finding the right information with least effort, search engines rely heavily 
+on information retrieval. As opposed to the early days of 
+internet when most web documents primarily comprised of textual content, modern 
+day documents are inherently more complex and composed of heterogeneous 
+structural elements including, but not limited to images, tables or entity 
+panels.
+
+Learning comprehensive representations of data is a critical component of any 
+system that ranks documents. Classical retrieval models such as TF-IDF and BM25, 
+use a bag-of-words representation and cannot effectively capture contextual 
+information of a word. Researchers have also used vector representations of text 
+that embed document and query text into a lower dimensional space using 
+LSA\cite{deerwester1990indexing}, PCA\cite{jolliffe1986principal} 
+or LDA\cite{blei2003latent} to compute query-document similarity. Several models are also 
+trained with hand crafted features \cite{Cao2006Sigir,Burges2010Report,Chapelle2011Yahoo} 
+that capture query specific syntactic or semantic information from the document. 
+These features may rely on frequency, position or proximity of query terms in web documents. 
+The above approaches have a major shortcoming: they either require manual decison on several 
+hyperparameters (number of dimensions, topics or vectors) or manually 
+designed features. Such approaches may not succinctly represent and exploit query 
+or document information which may yield suboptimial rankers. 
+
+
+With rapid progress 
+in deep learning and distributional semantics, hand-crafted features are no 
+longer required. Neural IR models can now exploit myriad types of large 
+scale pre-trained vector representations to learn a high-dimensional scoring 
+function for a query and document.
+Recently proposed neural architectures \cite{zheng2015learning,zamani2016estimating,mitra2015query} 
+rely on word embeddings that directly 
+exploit word co-occurance. However, these embeddings do not 
+directly capture the rich structural information available in web documents.  
+Specifically, existing word embeddings fail to capture insights 
+from the presence of and content embedded in structural elements of web pages 
+which may limit the performance of existing rankers. 
+
+Given the significant diversity in the content of web documents, 
+in this preliminary study, we go beyond textual content and aim to leverage 
+various heterogeneous structural elements in a web document to create richer embeddings. 
+% \textcolor{red}{TODO: add 1-2 lines on 
+% past papers which support our structured elements claims.} 
+From a relevance and user satisfaction perspective, we hypothesize that users 
+often spend less cognitive effort in finding information in structured 
+tables or entity panels than in reading through multiple paragraphs in a webpage. 
+Given the importance of structural elements in webpages and their absence from 
+existing embeddings, we posit that training rankers that jointly exploit 
+distributional semantics and word level meta-data will perform better than 
+traditional models. 
+
+In this work, we undertake the task of learning richer document representations 
+and propose a novel neural ranking architecture that exploits both co-occurance and 
+structural information associated with every word in the web page. 
+We begin by investigating document composition of TREC Web documents to 
+understand the distribution of structural elements in web corpus. Specifically, we consider four different 
+types of structural elements: (i) images, (ii) tables, (iii) headings, (iv) lists and (v) hyperlinks to 
+understand the interplay between the presence of such elements and document relevance. 
+We propose a neural architecture which jointly exploits structural element embedding and 
+word embeddings to rank documents.
+
+Given the rich representations of documents, we perform preliminary experiments to 
+demonstrate the efficacy of the proposed model. We observed 
+slight but statistical improvements in NDCG over existing baselines. This indicates the 
+advantage of exploiting underlying structure of web pages in retrieval. We posit that proposed 
+architecture, when augmented with more refined information about a webpage would significantly 
+improve retrieval accuracy. In future, we aim to experiment with recurrent networks that directly 
+exploit word or character level information to reduce proposed model's dependency on 
+pre-trained word embeddings.
+
+
+
+
+
