@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ECIR18-structuredEmbeddings.aux
+The style file: abbrv.bst
+Database file #1: sigproc-ECIR.bib
+Repeated entry---line 134 of file sigproc-ECIR.bib
+ : @inproceedings{shen2014learning
+ :                                ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
+Warning--empty institution in Burges2010Report
+Warning--empty booktitle in Cao2006Sigir
+Warning--empty year in Cao2006Sigir
+Warning--empty journal in diaz2016query
+Warning--empty year in diaz2016query
+Warning--empty year in grbovic2015context
+Warning--empty booktitle in Jarvelin2000NDCG
+Warning--empty year in kenter2015short
+Warning--empty year in mikolov2013distributed
+Warning--empty year in mitra2015query
+Warning--empty year in shen2014learning
+Warning--empty year in vulic2015monolingual
+Warning--empty year in zamani2016estimating
+Warning--empty year in zheng2015learning
+You've used 24 entries,
+            2118 wiz_defined-function locations,
+            661 strings with 8245 characters,
+and the built_in function-call counts, 8742 in all, are:
+= -- 812
+> -- 466
+< -- 8
++ -- 181
+- -- 157
+* -- 603
+:= -- 1419
+add.period$ -- 77
+call.type$ -- 24
+change.case$ -- 150
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 360
+empty$ -- 701
+format.name$ -- 157
+if$ -- 1849
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 22
+newline$ -- 122
+num.names$ -- 50
+pop$ -- 216
+preamble$ -- 1
+purify$ -- 124
+quote$ -- 0
+skip$ -- 230
+stack$ -- 0
+substring$ -- 394
+swap$ -- 89
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 96
+warning$ -- 14
+while$ -- 74
+width$ -- 26
+write$ -- 250
+(There was 1 error message)

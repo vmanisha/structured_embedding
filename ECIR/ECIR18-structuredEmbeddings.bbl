@@ -1,0 +1,141 @@
+\begin{thebibliography}{10}
+
+\bibitem{blei2003latent}
+D.~M. Blei, A.~Y. Ng, and M.~I. Jordan.
+\newblock Latent dirichlet allocation.
+\newblock {\em Journal of machine Learning research}, 3(Jan):993--1022, 2003.
+
+\bibitem{Burges2010Report}
+C.~J. Burges.
+\newblock From ranknet to lambdarank to lambdamart: An overview.
+\newblock Technical report, June 2010.
+
+\bibitem{Cao2006Sigir}
+Y.~Cao, J.~Xu, T.-Y. Liu, H.~Li, Y.~Huang, and H.-W. Hon.
+\newblock Adapting ranking svm to document retrieval.
+\newblock SIGIR '06. ACM.
+
+\bibitem{Chapelle2011Yahoo}
+O.~Chapelle and Y.~Chang.
+\newblock Yahoo! learning to rank challenge overview.
+\newblock In O.~Chapelle, Y.~Chang, and T.-Y. Liu, editors, {\em Proceedings of
+  the Learning to Rank Challenge}, volume~14 of {\em Proceedings of Machine
+  Learning Research}, pages 1--24, Haifa, Israel, 25 Jun 2011. PMLR.
+
+\bibitem{collins2015trec}
+K.~Collins-Thompson, C.~Macdonald, P.~Bennett, F.~Diaz, and E.~M. Voorhees.
+\newblock Trec 2014 web track overview.
+\newblock Technical report, DTIC Document, 2015.
+
+\bibitem{deerwester1990indexing}
+S.~Deerwester, S.~T. Dumais, G.~W. Furnas, T.~K. Landauer, and R.~Harshman.
+\newblock Indexing by latent semantic analysis.
+\newblock {\em Journal of the American society for information science},
+  41(6):391, 1990.
+
+\bibitem{diaz2016query}
+F.~Diaz, B.~Mitra, and N.~Craswell.
+\newblock Query expansion with locally-trained word embeddings.
+
+\bibitem{gabrilovich2007computing}
+E.~Gabrilovich and S.~Markovitch.
+\newblock Computing semantic relatedness using wikipedia-based explicit
+  semantic analysis.
+\newblock In {\em IJcAI}, volume~7, pages 1606--1611, 2007.
+
+\bibitem{grbovic2015context}
+M.~Grbovic, N.~Djuric, V.~Radosavljevic, F.~Silvestri, and N.~Bhamidipati.
+\newblock Context-and content-aware embeddings for query rewriting in sponsored
+  search.
+\newblock In {\em SIGIR 2015}.
+
+\bibitem{hui2017position}
+K.~Hui, A.~Yates, K.~Berberich, and G.~de~Melo.
+\newblock Position-aware representations for relevance matching in neural
+  information retrieval.
+\newblock In {\em Proceedings of the 26th International Conference on World
+  Wide Web Companion}, pages 799--800. International World Wide Web Conferences
+  Steering Committee, 2017.
+
+\bibitem{Jarvelin2000NDCG}
+K.~J\"{a}rvelin and J.~Kek\"{a}l\"{a}inen.
+\newblock Ir evaluation methods for retrieving highly relevant documents.
+\newblock SIGIR '00. ACM, 2000.
+
+\bibitem{jolliffe1986principal}
+I.~T. Jolliffe.
+\newblock Principal component analysis and factor analysis.
+\newblock In {\em Principal component analysis}, pages 115--128. Springer,
+  1986.
+
+\bibitem{kenter2015short}
+Kenter and de~Rijke.
+\newblock Short text similarity with word embeddings.
+\newblock In {\em CIKM 2015}.
+
+\bibitem{li2014semantic}
+H.~Li, J.~Xu, et~al.
+\newblock Semantic matching in search.
+\newblock {\em Foundations and Trends{\textregistered} in Information
+  Retrieval}, 7(5):343--469, 2014.
+
+\bibitem{liu2007letor}
+T.~Y. Liu, J.~Xu, T.~Qin, W.~Xiong, and H.~Li.
+\newblock Letor: Benchmark dataset for research on learning to rank for
+  information retrieval.
+\newblock In {\em SIGIR '07: Proceedings of the Learning to Rank workshop in
+  the 30th annual international ACM SIGIR conference on Research and
+  development in information retrieval}, 2007.
+
+\bibitem{liu2015representation}
+X.~Liu, J.~Gao, X.~He, L.~Deng, K.~Duh, and Y.-Y. Wang.
+\newblock Representation learning using multi-task deep neural networks for
+  semantic classification and information retrieval.
+\newblock In {\em HLT-NAACL}, pages 912--921, 2015.
+
+\bibitem{mikolov2013distributed}
+T.~Mikolov, I.~Sutskever, K.~Chen, G.~S. Corrado, and J.~Dean.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em NIPS 2013}.
+
+\bibitem{mitra2015query}
+B.~Mitra and N.~Craswell.
+\newblock Query auto-completion for rare prefixes.
+\newblock In {\em CIKM 2015}.
+
+\bibitem{shen2014learning}
+Y.~Shen, X.~He, and J.~Gao.
+\newblock Learning semantic representations using convolutional neural networks
+  for web search.
+\newblock In {\em WWW 2014}.
+
+\bibitem{tombros2005users}
+A.~Tombros, I.~Ruthven, and J.~M. Jose.
+\newblock How users assess web pages for information seeking.
+\newblock {\em Journal of the American society for Information Science and
+  Technology}, 56(4):327--344, 2005.
+
+\bibitem{verma2016obtaining}
+M.~Verma, E.~Yilmaz, and N.~Craswell.
+\newblock On obtaining effort based judgements for information retrieval.
+\newblock In {\em Proceedings of the Ninth ACM International Conference on Web
+  Search and Data Mining}, pages 277--286. ACM, 2016.
+
+\bibitem{vulic2015monolingual}
+I.~Vuli{\'c} and M.-F. Moens.
+\newblock Monolingual and cross-lingual information retrieval models based on
+  (bilingual) word embeddings.
+\newblock In {\em SIGIR 2015}.
+
+\bibitem{zamani2016estimating}
+H.~Zamani and W.~B. Croft.
+\newblock Estimating embedding vectors for queries.
+\newblock In {\em ICTIR 2016}.
+
+\bibitem{zheng2015learning}
+G.~Zheng and J.~Callan.
+\newblock Learning to reweight terms with distributed representations.
+\newblock In {\em SIGIR 2015}.
+
+\end{thebibliography}

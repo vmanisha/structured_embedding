@@ -1,0 +1,14 @@
+\BOOKMARK [0][-]{chapter.1}{Lecture Notes in Computer Science}{}% 1
+\BOOKMARK [1][-]{section*.2}{Introduction}{chapter.1}% 2
+\BOOKMARK [1][-]{section*.3}{Related Work}{chapter.1}% 3
+\BOOKMARK [2][-]{section*.5}{Distributional Semantics for IR}{section*.3}% 4
+\BOOKMARK [2][-]{section*.6}{Document Representations}{section*.3}% 5
+\BOOKMARK [2][-]{section*.8}{Exploiting Document Structure}{section*.3}% 6
+\BOOKMARK [1][-]{section*.9}{Methodology}{chapter.1}% 7
+\BOOKMARK [2][-]{section*.10}{Structural Elements}{section*.9}% 8
+\BOOKMARK [2][-]{section*.12}{Retrieval with structure embeddings}{section*.9}% 9
+\BOOKMARK [2][-]{section*.15}{Dataset}{section*.9}% 10
+\BOOKMARK [2][-]{section*.16}{Baselines}{section*.9}% 11
+\BOOKMARK [2][-]{section*.17}{Evaluation metric}{section*.9}% 12
+\BOOKMARK [1][-]{section*.18}{Results and Discussion}{chapter.1}% 13
+\BOOKMARK [1][-]{section*.19}{Conclusion}{chapter.1}% 14
